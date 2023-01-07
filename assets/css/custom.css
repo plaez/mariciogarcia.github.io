@@ -12,3 +12,60 @@ img {
     margin-right: auto;
     width: 1000px;
   }
+
+  .customcontainer {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5%;
+  }
+
+  .divider {
+    content: "";
+  }
+  
+  .toppane {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+  }
+  
+  .leftpane {
+    width: 33%;
+    height: 50vh;
+  }
+
+  .panecontent {
+    text-align: left;
+    padding: 5%;
+    padding-bottom: 0%;
+  }
+  
+  .middlepane {
+    width: 33%;
+    height: 50vh;
+    border-right: 8px solid #dfdfe2;
+    border-radius: 8px;
+    border-left: 8px solid #dfdfe2;
+    border-radius: 8px;
+  }
+  
+  .rightpane {
+    width: 33%;
+    height: 50vh;
+  }
+  
+  .custombody {
+    margin: 0!important;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+
+  .footerbackground {
+    background-color: #4e4e50;
+  }
+
+  .footerendbackground {
+    background-color: #1e1e25;
+  }
